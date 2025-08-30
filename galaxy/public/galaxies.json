@@ -1,0 +1,84 @@
+{
+  "galaxies": [
+    {
+      "id": 1,
+      "name": "Via Láctea",
+      "stars": 400000000000,
+      "type": "Espiral",
+      "distance": "0 anos-luz",
+      "description": "Nossa galáxia natal, uma galáxia espiral com aproximadamente 400 bilhões de estrelas. Contém o nosso Sistema Solar e é parte do Grupo Local de galáxias.",
+      "discoveredBy": "Observação ancestral",
+      "image": "https://images.unsplash.com/photo-1446776877081-d282a0f896e2?w=400"
+    },
+    {
+      "id": 2,
+      "name": "Andrômeda",
+      "stars": 1000000000000,
+      "type": "Espiral",
+      "distance": "2.537.000 anos-luz",
+      "description": "A galáxia espiral mais próxima da Via Láctea e a maior galáxia do Grupo Local. Está se aproximando da nossa galáxia e colidirá com ela em aproximadamente 4,5 bilhões de anos.",
+      "discoveredBy": "Abd al-Rahman al-Sufi (964 d.C.)",
+      "image": "https://images.unsplash.com/photo-1502134249126-9f3755a50d78?w=400"
+    },
+    {
+      "id": 3,
+      "name": "Triângulo",
+      "stars": 40000000000,
+      "type": "Espiral",
+      "distance": "2.723.000 anos-luz",
+      "description": "Também conhecida como M33, é a terceira maior galáxia do Grupo Local. É uma galáxia espiral de face-on, o que permite uma visão clara de sua estrutura espiral.",
+      "discoveredBy": "Charles Messier (1764)",
+      "image": "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=400"
+    },
+    {
+      "id": 4,
+      "name": "Centaurus A",
+      "stars": 100000000000,
+      "type": "Elíptica",
+      "distance": "13.700.000 anos-luz",
+      "description": "Uma galáxia elíptica peculiar com uma proeminente faixa de poeira. É uma das galáxias de rádio mais próximas da Terra e possui um buraco negro supermassivo ativo em seu centro.",
+      "discoveredBy": "James Dunlop (1826)",
+      "image": "https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?w=400"
+    },
+    {
+      "id": 5,
+      "name": "Sombrero",
+      "stars": 80000000000,
+      "type": "Lenticular",
+      "distance": "28.000.000 anos-luz",
+      "description": "Famosa por sua aparência distintiva que lembra um sombrero mexicano, vista de perfil. Possui um bulbo central proeminente e um disco fino com uma faixa de poeira escura.",
+      "discoveredBy": "Pierre Méchain (1781)",
+      "image": "https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=400"
+    },
+    {
+      "id": 6,
+      "name": "Whirlpool",
+      "stars": 160000000000,
+      "type": "Espiral",
+      "distance": "23.000.000 anos-luz",
+      "description": "Também conhecida como M51, é famosa por sua estrutura espiral bem definida e sua interação com uma galáxia companheira menor. É um dos melhores exemplos de galáxia espiral de design.",
+      "discoveredBy": "Charles Messier (1773)",
+      "image": "https://images.unsplash.com/photo-1543722530-d2c3201371e7?w=400"
+    },
+    {
+      "id": 7,
+      "name": "Magalhães Grande",
+      "stars": 20000000000,
+      "type": "Irregular",
+      "distance": "160.000 anos-luz",
+      "description": "Uma galáxia satélite da Via Láctea, visível do hemisfério sul. É uma galáxia irregular rica em formação estelar e contém a famosa Nebulosa da Tarântula.",
+      "discoveredBy": "Observação ancestral",
+      "image": "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?w=400"
+    },
+    {
+      "id": 8,
+      "name": "Magalhães Pequena",
+      "stars": 3000000000,
+      "type": "Irregular",
+      "distance": "200.000 anos-luz",
+      "description": "A menor das duas Nuvens de Magalhães, também uma galáxia satélite da Via Láctea. Possui uma forma irregular e está gravitacionalmente ligada à Grande Nuvem de Magalhães.",
+      "discoveredBy": "Observação ancestral",
+      "image": "https://images.unsplash.com/photo-1464802686167-b939a6910659?w=400"
+    }
+  ]
+}
