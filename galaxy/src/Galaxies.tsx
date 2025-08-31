@@ -224,7 +224,7 @@ export default function Galaxies() {
                                   fontSize: { xs: "0.8rem", sm: "0.875rem" },
                                 }}
                               >
-                                {formatNumber(galaxy.stars)} estrelas
+                                Estimado: {formatNumber(galaxy.stars)} estrelas
                               </Typography>
                               <Chip
                                 label={galaxy.type}
@@ -298,10 +298,10 @@ export default function Galaxies() {
                       >
                         <Chip
                           icon={<StarIcon />}
-                          label={`${formatNumber(
+                          label={`Estimam-se: ${formatNumber(
                             selectedGalaxy.stars
                           )} estrelas`}
-                          color="primary"
+                          color="default"
                           variant="outlined"
                         />
                         <Chip

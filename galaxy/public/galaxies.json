@@ -6,8 +6,8 @@
       "stars": 400000000000,
       "type": "Espiral",
       "distance": "0 anos-luz",
-      "description": "Nossa galáxia natal, uma galáxia espiral com aproximadamente 400 bilhões de estrelas. Contém o nosso Sistema Solar e é parte do Grupo Local de galáxias.",
-      "discoveredBy": "Observação ancestral",
+      "description": "Nossa galáxia natal, uma galáxia espiral com aproximadamente 400 bilhões de estrelas. Contém o Sistema Solar e faz parte do Grupo Local de galáxias.",
+      "discoveredBy": "Conhecida desde a antiguidade",
       "image": "https://images.ctfassets.net/cnu0m8re1exe/76iARqWFwf5VQeHcy7FsYB/75246efbd9ac79410b75b5c0211723ba/shutterstock_738535111.jpg?fm=jpg&fl=progressive&w=660&h=433&fit=fill"
     },
     {
@@ -22,11 +22,11 @@
     },
     {
       "id": 3,
-      "name": "Triângulo",
+      "name": "Triângulo (M33)",
       "stars": 40000000000,
       "type": "Espiral",
       "distance": "2.723.000 anos-luz",
-      "description": "Também conhecida como M33, é a terceira maior galáxia do Grupo Local. É uma galáxia espiral de face-on, o que permite uma visão clara de sua estrutura espiral.",
+      "description": "Também conhecida como M33, é a terceira maior galáxia do Grupo Local. É uma galáxia espiral de face-on, permitindo uma visão clara de sua estrutura.",
       "discoveredBy": "Charles Messier (1764)",
       "image": "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=400"
     },
@@ -36,27 +36,27 @@
       "stars": 100000000000,
       "type": "Elíptica",
       "distance": "13.700.000 anos-luz",
-      "description": "Uma galáxia elíptica peculiar com uma proeminente faixa de poeira. É uma das galáxias de rádio mais próximas da Terra e possui um buraco negro supermassivo ativo em seu centro.",
+      "description": "Galáxia elíptica peculiar com uma faixa de poeira proeminente. Uma das galáxias de rádio mais próximas da Terra, com um buraco negro supermassivo ativo no centro.",
       "discoveredBy": "James Dunlop (1826)",
       "image": "https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?w=400"
     },
     {
       "id": 5,
-      "name": "Sombrero",
+      "name": "Sombrero (M104)",
       "stars": 80000000000,
       "type": "Lenticular",
       "distance": "28.000.000 anos-luz",
-      "description": "Famosa por sua aparência distintiva que lembra um sombrero mexicano, vista de perfil. Possui um bulbo central proeminente e um disco fino com uma faixa de poeira escura.",
+      "description": "Famosa por sua aparência que lembra um sombrero mexicano, vista de perfil. Possui um bulbo central proeminente e um disco fino com faixa de poeira escura.",
       "discoveredBy": "Pierre Méchain (1781)",
       "image": "https://cdn.eso.org/images/wallpaper4/sombrero.jpg"
     },
     {
       "id": 6,
-      "name": "Whirlpool",
+      "name": "Whirlpool (M51)",
       "stars": 160000000000,
       "type": "Espiral",
       "distance": "23.000.000 anos-luz",
-      "description": "Também conhecida como M51, é famosa por sua estrutura espiral bem definida e sua interação com uma galáxia companheira menor. É um dos melhores exemplos de galáxia espiral de design.",
+      "description": "Também conhecida como M51, famosa por sua estrutura espiral bem definida e interação com uma galáxia companheira menor. Exemplo clássico de galáxia espiral de design.",
       "discoveredBy": "Charles Messier (1773)",
       "image": "https://images.unsplash.com/photo-1543722530-d2c3201371e7?w=400"
     },
@@ -66,9 +66,9 @@
       "stars": 20000000000,
       "type": "Irregular",
       "distance": "160.000 anos-luz",
-      "description": "Uma galáxia satélite da Via Láctea, visível do hemisfério sul. É uma galáxia irregular rica em formação estelar e contém a famosa Nebulosa da Tarântula.",
+      "description": "Galáxia satélite da Via Láctea, visível do hemisfério sul. Rica em formação estelar e contém a famosa Nebulosa da Tarântula.",
       "discoveredBy": "Observação ancestral",
-      "image": "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?w=400"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Grande_Nuvem_de_Magalh%C3%A3es.jpg/330px-Grande_Nuvem_de_Magalh%C3%A3es.jpg"
     },
     {
       "id": 8,
@@ -76,9 +76,39 @@
       "stars": 3000000000,
       "type": "Irregular",
       "distance": "200.000 anos-luz",
-      "description": "A menor das duas Nuvens de Magalhães, também uma galáxia satélite da Via Láctea. Possui uma forma irregular e está gravitacionalmente ligada à Grande Nuvem de Magalhães.",
+      "description": "A menor das Nuvens de Magalhães, também satélite da Via Láctea. Possui forma irregular e está gravitacionalmente ligada à Grande Nuvem de Magalhães.",
       "discoveredBy": "Observação ancestral",
       "image": "https://images.unsplash.com/photo-1464802686167-b939a6910659?w=400"
+    },
+    {
+      "id": 9,
+      "name": "NGC 1300",
+      "stars": 100000000000,
+      "type": "Espiral barrada",
+      "distance": "61.000.000 anos-luz",
+      "description": "Exemplo clássico de galáxia espiral barrada, com uma barra central proeminente e braços espirais bem definidos.",
+      "discoveredBy": "John Herschel (1835)",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Hubble2005-01-barred-spiral-galaxy-NGC1300.jpg/1200px-Hubble2005-01-barred-spiral-galaxy-NGC1300.jpg"
+    },
+    {
+      "id": 10,
+      "name": "M82 (Galáxia do Cigarro)",
+      "stars": 30000000000,
+      "type": "Irregular / Starburst",
+      "distance": "12.000.000 anos-luz",
+      "description": "Galáxia irregular com alta taxa de formação estelar, causada pela interação gravitacional com M81. Conhecida como galáxia starburst.",
+      "discoveredBy": "Johann Elert Bode (1774)",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReMVAFM60HnNHg0Xtkb1uqLr9qvlwe5yhgHQ&s"
+    },
+    {
+      "id": 11,
+      "name": "NGC 4993",
+      "stars": 10000000000,
+      "type": "Elíptica",
+      "distance": "130.000.000 anos-luz",
+      "description": "Galáxia elíptica que foi o local do primeiro evento de fusão de estrelas de nêutrons detectado em ondas gravitacionais (GW170817).",
+      "discoveredBy": "John Herschel (1835)",
+      "image": "https://cdn.eso.org/images/wallpaper3/eso1733b.jpg"
     }
   ]
 }
