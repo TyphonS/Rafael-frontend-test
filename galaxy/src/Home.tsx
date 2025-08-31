@@ -1,15 +1,16 @@
 import { Box, Button, Container, Stack, Typography } from "@mui/material";
 import { Link } from "react-router-dom";
 import ExploreIcon from "@mui/icons-material/Explore";
+import galaxyBg from "./assets/galaxy-background.jpg";
 
 export default function Home() {
   return (
     <Box
       sx={{
-        with: "100%",
+        width: "100%",
         height: "100vh",
         overflow: "hidden",
-        backgroundImage: "url('/src/assets/galaxy-background.jpg')",
+        backgroundImage: `url(${galaxyBg})`,
         backgroundSize: "cover",
       }}
     >
@@ -46,8 +47,7 @@ export default function Home() {
               fontSize: { xs: "2rem", sm: "2.5rem", md: "3rem" },
             }}
           >
-          <ExploreIcon sx={{ fontSize: 80, color:"slateblue",  mb: 1 }} />
-
+            <ExploreIcon sx={{ fontSize: 80, color: "slateblue", mb: 1 }} />
             Galaxy Finder
           </Typography>
         </Stack>

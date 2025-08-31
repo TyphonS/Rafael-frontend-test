@@ -4,8 +4,7 @@ import { CssBaseline, ThemeProvider } from "@mui/material";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./Home";
 import Galaxies from "./Galaxies";
-// import "./index.css";
-import theme from "./types/theme";
+import theme from "./theme";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>

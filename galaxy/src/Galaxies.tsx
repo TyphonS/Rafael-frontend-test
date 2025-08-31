@@ -21,10 +21,21 @@ import {
 import type { Galaxy, GalaxiesResponse } from "./types/galaxy-type";
 
 const formatNumber = (num: number): string => {
-  if (num >= 1e12) return (num / 1e12).toFixed(1) + " trilhões";
-  if (num >= 1e9) return (num / 1e9).toFixed(1) + " bilhões";
-  if (num >= 1e6) return (num / 1e6).toFixed(1) + " milhões";
-  return num.toLocaleString("pt-BR");
+  const formatter = new Intl.NumberFormat("pt-BR", {
+    minimumFractionDigits: 1,
+    maximumFractionDigits: 1,
+  });
+  if (num >= 1e12) {
+    return `${formatter.format(num / 1e12)} trilhões`;
+  }
+  if (num >= 1e9) {
+    return `${formatter.format(num / 1e9)} bilhões`;
+  }
+  if (num >= 1e6) {
+    return `${formatter.format(num / 1e6)} milhões`;
+  }
+
+  return new Intl.NumberFormat("pt-BR").format(num);
 };
 
 export default function Galaxies() {
@@ -54,14 +65,12 @@ export default function Galaxies() {
   const normalize = (str: string) =>
     str
       .normalize("NFD")
-      .replace(/[\u0300-\u036f]/g, "")
+      .replace(/\p{Diacritic}/gu, "")
       .toLowerCase();
 
   const filteredGalaxies = useMemo(
     () =>
-      galaxies.filter(
-        (g) => normalize(g.name).includes(normalize(searchTerm))
-      ),
+      galaxies.filter((g) => normalize(g.name).includes(normalize(searchTerm))),
     [galaxies, searchTerm]
   );
 
@@ -346,17 +355,6 @@ export default function Galaxies() {
                         }}
                       >
                         {selectedGalaxy.description}
-                      </Typography>
-
-                      <Typography
-                        variant="body2"
-                        color="text.secondary"
-                        sx={{
-                          fontStyle: "italic",
-                          fontSize: { xs: "0.8rem", sm: "0.875rem" },
-                        }}
-                      >
-                        🔭 Descoberta por: {selectedGalaxy.discoveredBy}
                       </Typography>
                     </Box>
                   </Box>
