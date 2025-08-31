@@ -28,7 +28,7 @@ O projeto utiliza **Material UI (MUI)** para estilização, suporta busca em tem
 
 ## ▶️ Como executar
 
-### 1. Clonar o repositório
+### 1. Clonar o repositório e Executar
 
 ```bash
 git clone https://github.com/seu-usuario/galaxy-finder.git
